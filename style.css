@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+}
+
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url(pexels-francesco-ungaro-2995276.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 60px #000;;
+}
+
+span input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #222;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+}
+
+.control input[type="submit"]{
+    background-color: crimson;
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+
+.control input[type="submit"]:hover{
+    opacity: 1;
+}
+
+.link{
+    text-align: center;
+}
+
+.link a{
+    text-decoration: none;
+    color: #fff;
+    opacity: .6;
+    transition: opacity .3s ease;
+}
+.link a:hover{
+    opacity: 1;
+}
