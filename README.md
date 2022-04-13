@@ -14,7 +14,7 @@ Projeto - Tela de Login Transparente
 <h3 align="center"> 
  Apresentação do Site
 </h3>
-<p align="center"><img src="https://github.com/juliobaccin/Projeto-Tela-de-Login-Transparente/blob/main/apresenta%C3%A7%C3%A3o%20site.gif"></p>    
+<p align="center"><img src="https://github.com/juliobaccin/Projeto-Tela-de-Login-Transparente/blob/main/Site.gif"></p>    
 
  
  <div align="center">
