@@ -1,6 +1,6 @@
 
 <h1 align="center"> 
-Projeto - Tela de Login Transparente
+Projeto - Login Glass
 </h1>
  
  <p align="center">
